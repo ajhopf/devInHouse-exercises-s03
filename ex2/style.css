@@ -1,0 +1,13 @@
+.input {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input > * {
+  box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  margin: 0.25rem;
+}

@@ -1,7 +1,7 @@
 const verifyPalindrome = string => {
   console.log('\nOriginal string: ', string);
 
-  //remove whitespaces and makes all letters lower case
+  //remove whitespaces and make all letters lower case
   const formattedString = string.split(' ').join('').toLowerCase();
   console.log('String to lower case and no whitespaces: ', formattedString);
 
